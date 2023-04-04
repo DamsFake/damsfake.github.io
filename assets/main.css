@@ -4,8 +4,8 @@
   }
 
 .carousel {
-    height: 400px;
-    width: 700px;
+    height: 500px;
+    max-width:100%;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -200,7 +200,11 @@
 }
 html,
 body {
-  background-color: #111;
+  background: rgb(0,0,0);
+background: -moz-linear-gradient(9deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 100%);
+background: -webkit-linear-gradient(9deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 100%);
+background: linear-gradient(9deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#414141",GradientType=1);
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #fff;
@@ -257,7 +261,8 @@ body {
 
 
 .header-container {
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 }
 .container {
@@ -347,19 +352,20 @@ body {
 h1 {
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
-    color: antiquewhite;
+    color: white;
     text-align: center;
 }
 
 h2{
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
-    color: antiquewhite;
+    color: white;
     font-weight: 100;
     text-align: center;
 }
 
 h3{
+    padding-top: 1%;
     font-size: 25px;
     font-family: 'Play', sans-serif;
     font-weight: 900;
@@ -384,7 +390,8 @@ h6{
     text-align: center;
 }
 h7{
-    color: black;
+  background-color: #0e0d0d;
+    color: rgb(209, 209, 209);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -404,11 +411,19 @@ a {
 }
 .button {
     top:50%;
-    background-color:#0a0a23;
     color: #fff;
     border:none;
-    border-radius:10px;
-    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    border-radius:10%;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+  }
+.button:hover {
+  border: auto solid transparent;
+  color: #acacac;
+  transform: scale(1.05);
+  will-change: transform;
   }
 mark {
     font-family: 'Montserrat', sans-serif;
