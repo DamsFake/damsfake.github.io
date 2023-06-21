@@ -235,13 +235,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
   }
   .carousel__slide:nth-of-type(2),
   .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
-    background-image: url("https://unsplash.it/600?random");
+    background-image: url("images/bd.jpeg");
     background-size: cover;
     background-position: center;
   }
   .carousel__slide:nth-of-type(3),
   .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
-    background-image: url("https://unsplash.it/900?random");
+    background-image: url("images/sisat.jpeg");
     background-size: cover;
     background-position: center;
   }
